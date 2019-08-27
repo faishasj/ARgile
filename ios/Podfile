@@ -3,6 +3,8 @@ target ‘argile’ do
   pod 'ViroReact', :path => '../node_modules/react-viro/ios/'
   pod 'ViroKit', :path => '../node_modules/react-viro/ios/dist/ViroRenderer/'
   # Add new pods below this line
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
